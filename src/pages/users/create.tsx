@@ -19,12 +19,12 @@ export default function CreateUser() {
 
                     <VStack spacing='8'>
                         <SimpleGrid minChildWidth='240px' spacing={["6", "8"]} w='100%'>
-                            <Input name='name' label='Nome completo' />
-                            <Input name='email' type='email' label='E-Mail' />
+                            <Input name='name' label='Nome completo'/>
+                            <Input name='email' type='email' label='E-Mail'  />
                         </SimpleGrid>
                         <SimpleGrid minChildWidth='240px' spacing={["6", "8"]} w='100%'>
                             <Input name='password' type='password' label='Senha' />
-                            <Input name='password_confirmation' type='password' label='Confirmarção da senha' />
+                            <Input name='password_confirmation' type='password'  label='Confirmarção da senha' />
                         </SimpleGrid>
                     </VStack>
 

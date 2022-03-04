@@ -21,9 +21,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         </SidebarDrawerProvider>
       </ChakraProvider>
 
-      <ReactQueryDevtools />
+      <ReactQueryDevtools /> 
     </QueryClientProvider>
   )
 }
-
+//Adicionado o Devtools do ReactQuery
 export default MyApp

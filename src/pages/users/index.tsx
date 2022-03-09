@@ -12,7 +12,7 @@ import { api } from "../../services/api";
 import { useUsers } from "../../services/hooks/useUsers";
 import { queryClient } from "../../services/queryClient";
 
-export default function UserList({ users }) {
+export default function UserList() {
     const [page, setPage] = useState(1);
     const { data, isLoading, isFetching, error } = useUsers(page)
 
